@@ -8,6 +8,7 @@ Meteor.startup(() => {
   cheerio = Meteor.npmRequire('cheerio');
   let pretty = Meteor.npmRequire('pretty');
   var fs = Meteor.npmRequire('fs');
+  request = Meteor.npmRequire('request');
 
 
    mindfullCsv = Scrape.url('https://docs.google.com/spreadsheets/d/1m_tiYlDIyNpp6WGUgKd5nTu6r7MySFqIc5MDS0JJSoM/edit?pref=2&pli=1#gid=7');

@@ -8,3 +8,5 @@
 #use mock data for ui
 
 #look at other user stories
+
+#go back and secure server variables
